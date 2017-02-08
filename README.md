@@ -40,7 +40,13 @@ Here is a list of the different sections of the site, and the classes that handl
   You can install Chromedriver by following the instructions at https://sites.google.com/a/chromium.org/chromedriver/getting-started
 
  1.3 Tesseract
-  Tesseract is needed to automatically solve the CAPTCHA. You can install it by following the instructions at https://github.com/tesseract-ocr/tesseract/wiki
+ Tesseract is needed to automatically solve the CAPTCHA. You can install it by following the instructions at https://github.com/tesseract-ocr/tesseract/wiki
+  
+  1.4 ImageMagick
+  ImageMagick is used to process the CAPTCHA images. You can find a detailed guide on how to install ImageMagick on https://www.imagemagick.org/script/download.php.
+  
+  1.5 JMagick
+  A Java wrapper is needed to use ImageMagick in the application. You can download it from http://www.jmagick.org/. Documentation is available at http://www.jmagick.org/jmagick-doc/. You will have to add the library to the Java search path.
 
 2. COMPILATION
  Create a Java project in your favourite IDE, and export the project as a runnable jar file.
